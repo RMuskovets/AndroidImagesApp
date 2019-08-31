@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImagesApplication</string>
+    <string name="img2_name">dog</string>
+    <string name="img1_name">cat</string>
+</resources>
