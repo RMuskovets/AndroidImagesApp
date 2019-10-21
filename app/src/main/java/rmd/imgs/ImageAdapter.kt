@@ -12,9 +12,8 @@ class ImageAdapter(private var ctx: Context, private var imgs: List<Drawable>) :
     }
 
     override fun getCount(): Int {
-        return imgs.size
+        return ctx.resources.getInteger(R.integer.tbl_sz_w) * ctx.resources.getInteger(R.integer.tbl_sz_h)
     }
-
     operator fun get(index: Int): Drawable {
         return imgs[index]
     }

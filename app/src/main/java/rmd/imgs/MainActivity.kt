@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onPostExecute(result: Bitmap) {
-            val bitmaps = List(10) { BitmapDrawable(result) }
+            val bitmaps = List(ctx.resources.getInteger(R.integer.tbl_sz_w) * ctx.resources.getInteger(R.integer.tbl_sz_h)) { BitmapDrawable(result) }
             grid.adapter = ImageAdapter(ctx, bitmaps)
         }
     }

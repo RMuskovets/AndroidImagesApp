@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:columnWidth="128px"
     android:rowHeight="128px"
-    android:numColumns="auto_fit"
+    android:numColumns="@integer/tbl_sz_w"
     android:verticalSpacing="0dp"
     android:horizontalSpacing="0dp"
     android:stretchMode="columnWidth"
