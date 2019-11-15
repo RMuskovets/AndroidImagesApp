@@ -1,2 +1,3 @@
-include ':app'
+include ':android-app'
 rootProject.name='ImagesApplication'
+project(':android-app').projectDir = new File('app')
