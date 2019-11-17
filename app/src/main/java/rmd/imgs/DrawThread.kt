@@ -37,6 +37,9 @@ class DrawThread(
                     world.scrwdt = cvs.width
                     world.scrhgt = cvs.height
 
+                    println(cvs.width)
+                    println(cvs.height)
+
                     cvs.drawColor(Color.BLACK)
                     world.draw(cvs)
                 }
