@@ -1,60 +1,72 @@
 package rmd.imgs
-
-import android.app.Activity
-import android.content.Context
-import android.graphics.drawable.Drawable
-import android.view.View
-import android.view.ViewGroup
-import android.widget.*
-import kotlin.random.Random
-
-class ImageAdapter(private var ctx: Activity, private var imgs: MutableList<Image>) : BaseAdapter() {
-
-    private var parent: ViewGroup = ctx.findViewById(R.id.gridview)
-
-    override fun getItemId(p: Int): Long {
-        return 0
-    }
-
-    override fun getCount(): Int {
-        return ctx.resources.getInteger(R.integer.tbl_sz_w) * ctx.resources.getInteger(R.integer.tbl_sz_h)
-    }
-    operator fun get(index: Int): Drawable {
-        return imgs[index].img
-    }
-
-    override fun getItem(pos: Int): Any {
-        return imgs[pos]
-    }
-
-    override fun getView(pos: Int, convertView: View?, parent: ViewGroup): View {
-        @Suppress("USELESS_ELVIS")
-        val img = (convertView as ImageView?)?:ImageView(ctx)
-        img.layoutParams = AbsListView.LayoutParams(128, 128)
-        img.scaleType = ImageView.ScaleType.CENTER_CROP
-        if (imgs[pos].isShown) {
-            img.setImageDrawable(imgs[pos].img)
-        } else {
-            img.setImageDrawable(null)
-        }
-        return img
-    }
-
-    fun random() {
-        val pos = Random.nextInt(count)
-        for (i in IntRange(0, imgs.size-1)) {
-            imgs[i] = Image(imgs[i].img, pos == i)
-        }
-        refresh()
-    }
-
-    private fun refresh() {
-//        try {
-//            parent.invalidate()
-//        } catch (e: Throwable) {
-//            parent.postInvalidate()
+//
+//import android.app.Activity
+//import android.graphics.Bitmap
+//import android.graphics.BitmapFactory
+//import android.graphics.Canvas
+//import android.graphics.drawable.BitmapDrawable
+//import android.graphics.drawable.Drawable
+//import android.view.View
+//import android.view.ViewGroup
+//import android.widget.*
+//import kotlin.random.Random
+//
+//class ImageAdapter(
+//    private var ctx: Activity,
+//    private var imgs: MutableList<Image>,
+//    private var plrx: Int, private var plry: Int,
+//    private var width: Int, private var height: Int) : BaseAdapter() {
+//
+//    private var parent: GridView = ctx.findViewById(R.id.gridview)
+//
+//    init {
+//        parent.numColumns = width
+//    }
+//
+//    override fun getItemId(p: Int): Long {
+//        return 0
+//    }
+//
+//    override fun getCount(): Int {
+//        return width*height
+//    }
+//    operator fun get(index: Int): Bitmap? {
+//        return imgs[index].img
+//    }
+//
+//    override fun getItem(pos: Int): Any {
+//        return imgs[pos]
+//    }
+//
+//    override fun getView(pos: Int, convertView: View?, parent: ViewGroup): View {
+//        println(plrx)
+//        println(plry)
+//        @Suppress("USELESS_ELVIS")
+//        val iv = (convertView as ImageView?)?:ImageView(ctx)
+//        iv.layoutParams = AbsListView.LayoutParams(16, 16)
+//        iv.scaleType = ImageView.ScaleType.CENTER_CROP
+//        if (pos < imgs.size) {
+//            if (((plrx-1) + (plry-1) * width) != pos) {
+//                iv.setImageBitmap(imgs[pos].img!!)
+//            } else {
+//                iv.setImageBitmap(BitmapUtils.overlay(
+//                    imgs[pos].img!!,
+//                    BitmapFactory.decodeResource(ctx.resources, R.drawable.player)
+//                    ))
+//            }
 //        }
-        this.notifyDataSetChanged()
-    }
-}
-
+//        return iv
+//    }
+//
+//    fun refresh() {
+//        this.notifyDataSetChanged()
+//    }
+//
+//    fun onplrmove(nx: Int, ny: Int) {
+//        plrx = nx
+//        plry = ny
+//
+//        refresh()
+//    }
+//}
+//
