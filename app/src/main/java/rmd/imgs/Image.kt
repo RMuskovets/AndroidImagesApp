@@ -1,5 +1,5 @@
 package rmd.imgs
 
-import android.graphics.drawable.Drawable
+import android.graphics.Bitmap
 
-data class Image(val img: Drawable, var isShown: Boolean)
+data class Image(val img: Bitmap?)
