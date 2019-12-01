@@ -1,13 +1,16 @@
-package rmd.imgs
+package rmd.imgs.game
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Paint
+import rmd.imgs.R
+import rmd.imgs.logging.Logger
 import kotlin.random.Random
 
 class World(
     private val ctx: Context,
+    private val log: Logger,
 
     private val width: Int,
     private val height:Int,
@@ -16,7 +19,7 @@ class World(
 
     var scrwdt:Int = 0,
     var scrhgt:Int = 0
-) {
+): IWorld {
     private var camx = width / 2
     private var camy = height/ 2
 
@@ -24,19 +27,35 @@ class World(
         IMAGES[Random.nextInt(IMAGES.size)]
     }
 
-    fun draw(cvs: Canvas) {
+    private fun calcOffset(rng: List<Int>): List<Int> {
+        return listOf(
+            (scrwdt / 2 - (rng[0] - rng[3]) * TILE_WIDTH / 2) / 4,
+            (scrhgt / 2 - (rng[1] - rng[2]) * TILE_HEIGHT / 2) / 4
+        )
+    }
+
+    private fun calcPos(offx: Int, offy: Int, x: Int, y: Int): List<Float> {
+        return listOf(
+            offx + (x * TILE_WIDTH * 2).toFloat(),
+            offy + (y * TILE_HEIGHT * 2).toFloat()
+        )
+    }
+
+    override fun draw(cvs: Canvas) {
         val rng = cameraPos()
 
-        val offx = (scrwdt / 2 - (rng[0] - rng[3]) * TILE_WIDTH / 2) / 4
-        val offy = (scrhgt / 2 - (rng[1] - rng[2]) * TILE_HEIGHT / 2) / 4
+        val off = calcOffset(rng)
+        val offx= off[0]
+        val offy= off[1]
 
         for (x in IntRange(rng[0], rng[3] - 1)) {
             for (y in IntRange(rng[1], rng[2] - 1)) {
                 val img = grid[y * width + x]
+                val pos = calcPos(offx, offy, x, y)
                 cvs.drawBitmap(
                     BitmapFactory.decodeResource(ctx.resources, img),
-                    offx + (x * TILE_WIDTH * 2).toFloat(),
-                    offy + (y * TILE_HEIGHT * 2).toFloat(),
+                    pos[0],
+                    pos[1],
                     Paint(Paint.FILTER_BITMAP_FLAG)
                 )
             }
@@ -50,8 +69,8 @@ class World(
         )
     }
 
-    fun setTile(x: Int, y: Int, img: Int) {
-        grid[y*width+x] = img
+    override fun setTile(x: Int, y: Int, typ: Int) {
+        grid[y*width+x] = typ
     }
 
     companion object {
@@ -79,11 +98,8 @@ class World(
         if (top < 0) top = 0
         if (bottom > height) bottom = height
 
-        println()
-        println(left)
-        println(right)
-        println(top)
-        println(bottom)
+
+        log.debug("left: $left, right: $right, top: $top, bottom: $bottom")
 
         return listOf(
             left, top,

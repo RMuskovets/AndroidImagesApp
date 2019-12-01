@@ -4,10 +4,12 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.view.SurfaceHolder
+import rmd.imgs.game.World
+import rmd.imgs.logging.Logger
 
 class DrawThread(
-    val ctx: Context,
-
+    private val ctx: Context,
+    private val log: Logger,
     private val sh: SurfaceHolder
 ): Thread() {
 
@@ -17,7 +19,7 @@ class DrawThread(
 
     override fun run() {
         val world = World(
-            ctx,
+            ctx, log,
             16, 16,
             16, 16
         )
