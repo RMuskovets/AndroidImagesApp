@@ -60,13 +60,6 @@ class World(
                 )
             }
         }
-
-        cvs.drawBitmap(
-            BitmapFactory.decodeResource(ctx.resources, R.drawable.player),
-            (offx + (rng[4] * TILE_WIDTH)).toFloat(),
-            (offy + (rng[5] * TILE_HEIGHT)).toFloat(),
-            Paint(Paint.FILTER_BITMAP_FLAG)
-        )
     }
 
     override fun setTile(x: Int, y: Int, typ: Int) {

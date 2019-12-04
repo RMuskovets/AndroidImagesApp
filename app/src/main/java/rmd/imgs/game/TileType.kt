@@ -12,7 +12,10 @@ class TileType(
 
         private val TYPES = arrayOf(
             TileType(true, R.drawable.grass),
-            TileType(true, R.drawable.sand)
+            TileType(true, R.drawable.sand),
+            TileType(false, R.drawable.stone),
+            TileType(false, R.drawable.tree),
+            TileType(false, R.drawable.water)
         )
 
         fun getTileType(num: Int): TileType {
