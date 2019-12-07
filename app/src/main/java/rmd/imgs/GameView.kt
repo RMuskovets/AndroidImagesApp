@@ -3,15 +3,12 @@ package rmd.imgs
 import android.content.Context
 import android.view.SurfaceHolder
 import android.view.SurfaceView
-import rmd.imgs.logging.Logger
-import rmd.imgs.logging.LoggerLevel
 
 class GameView(
     private val ctx: Context
 ): SurfaceView(ctx), SurfaceHolder.Callback {
 
     private lateinit var drw: DrawThread
-    private val logger = Logger(LoggerLevel.DEBUG)
 
     init {
         holder.addCallback(this)
@@ -35,7 +32,6 @@ class GameView(
     override fun surfaceCreated(p0: SurfaceHolder?) {
         drw = DrawThread(
             ctx,
-            logger,
             holder
         )
         drw.running = true

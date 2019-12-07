@@ -4,13 +4,12 @@ import android.content.Context
 import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Paint
+import android.util.Log
 import rmd.imgs.R
-import rmd.imgs.logging.Logger
 import kotlin.random.Random
 
 class World(
     private val ctx: Context,
-    private val log: Logger,
 
     private val width: Int,
     private val height:Int,
@@ -20,12 +19,39 @@ class World(
     var scrwdt:Int = 0,
     var scrhgt:Int = 0
 ): IWorld {
-    private var camx = width / 2
-    private var camy = height/ 2
+    private var camx = width/2
+    private var camy = height/2
+
+    private val startMap = listOf(
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 1, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 1, 1, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 4, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 1, 3, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 2, 3, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 1, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 1, 1, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 4, 4, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        1, 1, 3, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 2, 3, 4, 1, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0
+    )
 
     private var grid = MutableList(width*height) {
-        IMAGES[Random.nextInt(IMAGES.size)]
+        TileType.getTileType(startMap[it%startMap.size])
     }
+
+    private val plr: Player = Player(
+        camx,
+        camy,
+        camwdt,
+        camhgt,
+        R.drawable.player
+    )
 
     private fun calcOffset(rng: List<Int>): List<Int> {
         return listOf(
@@ -53,30 +79,24 @@ class World(
                 val img = grid[y * width + x]
                 val pos = calcPos(offx, offy, x, y)
                 cvs.drawBitmap(
-                    BitmapFactory.decodeResource(ctx.resources, img),
+                    BitmapFactory.decodeResource(ctx.resources, img.imageRes),
                     pos[0],
                     pos[1],
                     Paint(Paint.FILTER_BITMAP_FLAG)
                 )
             }
         }
+
+        plr.draw(ctx, cvs, offx, offy)
     }
 
     override fun setTile(x: Int, y: Int, typ: Int) {
-        grid[y*width+x] = typ
+        grid[y*width+x] = TileType.getTileType(typ)
     }
 
     companion object {
         const val TILE_WIDTH = 16
         const val TILE_HEIGHT= 16
-
-        val IMAGES = arrayOf(
-            R.drawable.grass,
-            R.drawable.sand,
-            R.drawable.stone,
-            R.drawable.tree,
-            R.drawable.water
-        )
     }
 
     private fun cameraPos(): List<Int> {
@@ -91,8 +111,7 @@ class World(
         if (top < 0) top = 0
         if (bottom > height) bottom = height
 
-
-        log.debug("left: $left, right: $right, top: $top, bottom: $bottom")
+        Log.v("rmd.imgs.World", "left: $left, right: $right, top: $top, bottom: $bottom")
 
         return listOf(
             left, top,

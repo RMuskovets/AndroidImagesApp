@@ -3,13 +3,13 @@ package rmd.imgs
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
+import android.util.Log
 import android.view.SurfaceHolder
 import rmd.imgs.game.World
-import rmd.imgs.logging.Logger
+import rmd.imgs.ui.Button
 
 class DrawThread(
     private val ctx: Context,
-    private val log: Logger,
     private val sh: SurfaceHolder
 ): Thread() {
 
@@ -19,12 +19,16 @@ class DrawThread(
 
     override fun run() {
         val world = World(
-            ctx, log,
-            16, 16,
+            ctx,
             16, 16
         )
 
         var cvs: Canvas?
+
+        var btnUp = Button(
+            true,
+            
+        )
 
         while (running) {
             val now = System.currentTimeMillis()
@@ -39,8 +43,7 @@ class DrawThread(
                     world.scrwdt = cvs.width
                     world.scrhgt = cvs.height
 
-                    println(cvs.width)
-                    println(cvs.height)
+                    Log.v("rmd.imgs.DrawThread", "width:${cvs.width} height:${cvs.height}")
 
                     cvs.drawColor(Color.BLACK)
                     world.draw(cvs)
