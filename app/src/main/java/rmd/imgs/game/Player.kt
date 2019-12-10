@@ -40,6 +40,16 @@ class Player(
     }
 
     fun calculateRemXP(): Int {
-        return 0
+        return ((lvl+1)*110)-(lvl*110)-lvlxp
+    }
+
+    fun addXP(xp: Int) {
+        val rem = calculateRemXP()
+        if (xp <= rem) {
+            lvl++
+            lvlxp = xp - rem
+        } else {
+            lvlxp += xp
+        }
     }
 }
