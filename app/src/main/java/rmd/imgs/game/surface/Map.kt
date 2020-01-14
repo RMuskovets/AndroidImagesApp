@@ -1,29 +1,28 @@
 package rmd.imgs.game.surface
 
+import rmd.imgs.game.datastruct.Position
 import kotlin.math.min
 
-class Map<T> {
-    private var map: MutableList<MutableList<T?>>
-    private val width: Int
-    private val height: Int
-
-    constructor(width: Int, height: Int, default: T? = null) {
-        map = IntRange(1, height)
-            .toList()
-            .map { IntRange(1, width).toList() }
-            .map { it.map { default } }
-            .map { it.toMutableList() }
-            .toMutableList()
-        this.width = width
-        this.height = height
-    }
+class Map<T>(private val width: Int, private val height: Int, default: T? = null) {
+    private var map = IntRange(1, height)
+        .toList()
+        .map { IntRange(1, width).toList() }
+        .map { it.map { default } }
+        .map { it.toMutableList() }
+        .toMutableList()
 
     operator fun set(x: Int, y: Int, value: T?) {
         map[y][x] = value
     }
+    operator fun set(p: Position, value: T?) {
+        map[p.y][p.x] = value
+    }
 
     operator fun get(x: Int, y: Int): T? {
         return map[y][x]
+    }
+    operator fun get(p: Position): T? {
+        return map[p.y][p.x]
     }
 
     fun expand(newWidth: Int, newHeight: Int): Map<T> {
