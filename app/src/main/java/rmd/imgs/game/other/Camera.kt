@@ -1,4 +1,4 @@
-package rmd.imgs.game
+package rmd.imgs.game.other
 
 import android.graphics.Rect
 
