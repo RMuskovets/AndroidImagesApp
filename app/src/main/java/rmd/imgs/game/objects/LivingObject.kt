@@ -4,7 +4,7 @@ import rmd.imgs.game.datastruct.Position
 import rmd.imgs.game.objects.features.*
 
 abstract class LivingObject(
-    private var pos: Position = Position(0, 0)
+    pos: Position = Position(0, 0)
 ):
     GameObject(pos), TickListener,
     HasHealth,
