@@ -5,7 +5,7 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.util.Log
 import android.view.SurfaceHolder
-import rmd.imgs.game.World
+import rmd.imgs.game.other.World
 import rmd.imgs.ui.Button
 
 class DrawThread(
@@ -27,7 +27,9 @@ class DrawThread(
 
         var btnUp = Button(
             true,
-            
+            0,
+            0,
+            0,0
         )
 
         while (running) {

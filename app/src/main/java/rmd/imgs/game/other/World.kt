@@ -1,4 +1,4 @@
-package rmd.imgs.game
+package rmd.imgs.game.other
 
 import android.content.Context
 import android.graphics.BitmapFactory
@@ -6,7 +6,7 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.Log
 import rmd.imgs.R
-import kotlin.random.Random
+import rmd.imgs.game.objects.Player
 
 class World(
     private val ctx: Context,

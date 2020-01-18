@@ -1,9 +1,10 @@
-package rmd.imgs.game
+package rmd.imgs.game.objects
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Paint
+import rmd.imgs.game.other.World
 
 class Player(
     private var x: Int,
