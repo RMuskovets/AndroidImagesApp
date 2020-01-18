@@ -7,14 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a31d46-2377-4f50-939e-8e5cb1475b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/AI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/AttackAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/MoveAction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/LivingObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/LivingObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/android-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/AI.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/AttackAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/MoveAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Map.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt" afterDir="false" />
     </list>
@@ -44,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/LivingObject.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#31#111#0" expanded="true" />
               </folding>
@@ -54,19 +79,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#31#111#0" expanded="true" />
               </folding>
@@ -77,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Map.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="585">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="e#31#94#0" expanded="true" />
               </folding>
@@ -86,32 +120,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Person.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="525">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
-                <element signature="e#38#298#0" expanded="true" />
+                <element signature="e#38#227#0" expanded="true" />
+                <element signature="e#377#492#0" />
+                <element signature="e#435#451#0" />
+                <element signature="e#567#682#0" />
+                <element signature="e#717#832#0" />
+                <element signature="e#866#981#0" />
+                <element signature="e#840#877#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/AI.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Player.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/types/Fraction.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -178,16 +227,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasAnimation.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/CanMove.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/DrawThread.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/MoveAction.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/AttackAction.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/LivingObject.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/AI.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/LivingObject.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Player.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Map.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Person.kt" />
       </list>
     </option>
   </component>
@@ -203,8 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -237,7 +288,15 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="imgs" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImagesApplication" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android-app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="imgs" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ImagesApplication" type="1abcf292:AndroidViewProjectNode" />
@@ -247,17 +306,12 @@
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="surface" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ImagesApplication" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="imgs" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,7 +468,7 @@
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
-    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -484,7 +538,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579010475165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add &quot;add object&quot;, &quot;set terrain type&quot; &amp; &quot;remove object&quot; features to Surface; shrink Map class in size by converting constructor to primary">
+      <created>1579013933955</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579013933955</updated>
+    </task>
+    <task id="LOCAL-00010" summary="make fields &quot;pos&quot; and &quot;skin&quot; protected in GameObject, make field &quot;pos&quot; protected in LivingObject">
+      <created>1579014003228</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579014003228</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add NPC class; add AI-related classes (AI and actions it can do)">
+      <created>1579014044532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579014044532</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,29 +567,30 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21558164" />
-      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49942988" visible="true" weight="0.25987193" />
+      <window_info id="Structure" order="2" sideWeight="0.5005701" side_tool="true" weight="0.25987193" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Resources Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Find" weight="0.3295325" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295325" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.3295325" />
       <window_info anchor="bottom" id="Logcat" order="1" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.41410694" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.33865452" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3295325" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3295325" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Assistant" order="5" weight="0.3293944" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.32977587" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -586,7 +662,10 @@
     <MESSAGE value="a lot of changes:&#10;- Position class with X and Y fields;&#10;- Map and Surface classes;&#10;- packages for every &quot;type&quot; - data structures in datastruct, game objects in objects, surface (map) in surface, other things in other;&#10;- &quot;features&quot; for objects - can attack, can die, has damage, has fraction, etc." />
     <MESSAGE value="a lot of changes:&#10;- Position class with X and Y fields;&#10;- Map and Surface classes;&#10;- packages for every &quot;type&quot; - data structures in datastruct, game objects in objects, surface (map) in surface, other things in other;&#10;- &quot;features&quot; for objects - can attack, can die, has damage, has fraction, etc.&#10;&#10;- fix compile error in DrawThread (stub in L29-L32)" />
     <MESSAGE value="a &quot;has experience&quot; feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="a &quot;has experience&quot; feature" />
+    <MESSAGE value="add &quot;add object&quot;, &quot;set terrain type&quot; &amp; &quot;remove object&quot; features to Surface; shrink Map class in size by converting constructor to primary" />
+    <MESSAGE value="make fields &quot;pos&quot; and &quot;skin&quot; protected in GameObject, make field &quot;pos&quot; protected in LivingObject" />
+    <MESSAGE value="add NPC class; add AI-related classes (AI and actions it can do)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NPC class; add AI-related classes (AI and actions it can do)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -597,13 +676,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasDamage.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
@@ -659,13 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/CanHide.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/CanHide.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/datastruct/Position.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -673,20 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/types/Fraction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/types/ObjectType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/types/ObjectType.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/CanMove.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -715,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/MoveAction.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -736,17 +782,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/renderer/Renderer.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/AI.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/ai/actions/Action.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#38#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasHealth.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/types/Fraction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/features/HasExperience.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -757,34 +842,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/NPC.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Player.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#38#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/renderer/Renderer.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/LivingObject.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#31#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/GameObject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#31#111#0" expanded="true" />
           </folding>
@@ -793,20 +878,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Map.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="585">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="e#31#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/surface/Surface.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/rmd/imgs/game/objects/living/Person.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="525">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
-            <element signature="e#31#111#0" expanded="true" />
+            <element signature="e#38#227#0" expanded="true" />
+            <element signature="e#377#492#0" />
+            <element signature="e#435#451#0" />
+            <element signature="e#567#682#0" />
+            <element signature="e#717#832#0" />
+            <element signature="e#866#981#0" />
+            <element signature="e#840#877#0" />
           </folding>
         </state>
       </provider>

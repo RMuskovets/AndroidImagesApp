@@ -4,4 +4,5 @@ interface HasExperience {
 
     fun getXP(): Int
     fun getLevel(): Int
+    fun addXP(xp: Int)
 }
