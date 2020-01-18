@@ -34,4 +34,9 @@ class Map<T>(private val width: Int, private val height: Int, default: T? = null
         }
         return newMap
     }
+
+    companion object {
+        val WIDTH = 64
+        val HEIGHT = 64
+    }
 }
